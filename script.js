@@ -1,6 +1,8 @@
-var playerPick; //this has to be declared outside the function as the first thing the 'onclick' event does in the html is set this varable to either 1, 2, or 3.
+var playerPick; //this has to be declared outside the function as the first thing that the 'onclick' event on the image in the html does is set this variable to either 1, 2, or 3.
 function runGame(){
     var randomNum = Math.floor(Math.random() * 3) + 1;//computer picks a number from 1 to 3
+    var computerChoice;
+    var playerChoice;
     if (randomNum==1){
         computerChoice="Rock";
         }else if (randomNum==2){

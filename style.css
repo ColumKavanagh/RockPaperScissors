@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine !important;
+}
+h1, h2{
+    text-align: center;
+}
+#optionImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    border: 5px solid rgb(111, 114, 111);
+}
